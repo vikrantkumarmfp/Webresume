@@ -6,91 +6,148 @@
     <title>Resume</title>
   </head>
   <body>
-    <h1 align="Center">Resume</h1>
-    <img src="Photo.jpg" alt="Profile Pic" style="float: right" height="170" />
+    <!-- added a semantic tag header here -->
+    <header id="Home">
+      <h1 align="Center">Resume</h1>
+      <img
+        src="Photo.jpg"
+        alt="Profile Pic"
+        style="float: right"
+        height="170"
+      />
 
-    <h2>Vikrant Kumar</h2>
-    <p><b> I am a full stack Developer </b> 💕</p>
-    <p><i>Contact me for Website Development</i></p>
-    <a href="#mob">
-      <p><strong> 📞 Mobile no : </strong> <em> XXXXXXXX </em></p>
-    </a>
-    <a href="#Email"
-      ><p><strong> 📧 Email Address : </strong> <em> XXXXXXXX </em></p>
-    </a>
-    <br />
-    <hr />
-    <table border="2">
-      <colgroup>
-        <col span="2" style="background-color: lightyellow" />
-        <col span="2" style="background-color: lightgreen" />
-      </colgroup>
-      <tr>
-        <th>Course</th>
-        <th>University</th>
-        <th>Year</th>
-        <th>Result</th>
-      </tr>
-      <tr>
-        <td>10th</td>
-        <td>cbse</td>
-        <td>2013</td>
-        <td>8.2 cgp</td>
-      </tr>
+      <h2>Vikrant Kumar</h2>
+      <p><b> I am a full stack Developer </b> 💕</p>
+      <p><i>Contact me for Website Development</i></p>
+      <a href="#mob">
+        <p><strong> 📞 Mobile no : </strong> <em> XXXXXXXX </em></p>
+      </a>
+      <a href="#Email"
+        ><p><strong> 📧 Email Address : </strong> <em> XXXXXXXX </em></p>
+      </a>
 
-      <tr>
-        <td>12th</td>
-        <td>Bihar Board</td>
-        <td>2015</td>
-        <td>59.8 %</td>
-      </tr>
+      <a href="#Work Experience">Work Experience</a>
+      <a href="#Project">Project Expereince</a>
+      <br />
+      <hr />
+    </header>
+    <!-- added a semantic tag main section -->
+    <main>
+      <!-- added section & article tag and added id to it 
+      so that Developer and reader can read and understand code easily -->
+      <section id="Education">
+        <h2>Education</h2>
+        <table border="2">
+          <colgroup>
+            <col span="2" style="background-color: lightyellow" />
+            <col span="2" style="background-color: lightgreen" />
+          </colgroup>
+          <tr>
+            <th>Course</th>
+            <th>University</th>
+            <th>Year</th>
+            <th>Result</th>
+          </tr>
+          <tr>
+            <td>10th</td>
+            <td>cbse</td>
+            <td>2013</td>
+            <td>8.2 cgp</td>
+          </tr>
 
-      <tr>
-        <td>Graduation</td>
-        <td>Bhim Rao amedbkar Bihar Ubiversity</td>
-        <td>2019</td>
-        <td>72.75</td>
-      </tr>
-    </table>
-    <hr />
+          <tr>
+            <td>12th</td>
+            <td>Bihar Board</td>
+            <td>2015</td>
+            <td>59.8 %</td>
+          </tr>
 
-    <h2><i>Work Expereince</i></h2>
-    <ul type="square">
-      <li>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore <br />
-        pariatur odio labore deleniti nobis, molestias temporibus sed, iure
-        at<br />
-        eligendi expedita natus incidunt doloremque perspiciatis, nemo quo quod
-        <br />
-        similique praesentium?
-      </li>
-      <li>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit et<br />
-        recusandae illo placeat earum in asperiores accusamus enim nam<br />
-        perferendis.
-      </li>
-    </ul>
-    <h2><i>Project Expereince</i></h2>
-    <ol start="8" type="I" reversed="true">
-      <li>
-        <i
-          >Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam odio,
-          itaque commodi minima numquam sequi!</i
-        >
-      </li>
-      <li>
-        <i
-          >Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti,
-          ab!</i
-        >
-      </li>
-      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus?</li>
-    </ol>
-    <hr />
-    <p id="Email"><a href="mailto:Vikrantkumarmfp@gmail.com">📧 Contact </a></p>
-    <p id="mob"><a a href="tel:+918084052914">📱Phone</a></p>
-    <a target="_blank" href="About.html">
-      <p>About me</p>
-    </a>
+          <tr>
+            <td>Graduation</td>
+            <td>Bhim Rao amedbkar Bihar Ubiversity</td>
+            <td>2019</td>
+            <td>72.75</td>
+          </tr>
+        </table>
+        <hr />
+      </section>
+
+      <section id="Work Experience">
+        <h2><i>Work Expereince</i></h2>
+        <ul type="square">
+          <article id="Teacher">
+            <h4>Teacher</h4>
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+              <br />
+              pariatur odio labore deleniti nobis, molestias temporibus sed,
+              iure at<br />
+              eligendi expedita natus incidunt doloremque perspiciatis, nemo quo
+              quod
+              <br />
+              similique praesentium?
+            </li>
+            <li>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit
+              et<br />
+              recusandae illo placeat earum in asperiores accusamus enim nam<br />
+              perferendis.
+            </li>
+          </article>
+          <article id="Learner">
+            <h4>Learner</h4>
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+              <br />
+              pariatur odio labore deleniti nobis, molestias temporibus sed,
+              iure at<br />
+              eligendi expedita natus incidunt doloremque perspiciatis, nemo quo
+              quod
+              <br />
+              similique praesentium?
+            </li>
+            <li>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit
+              et<br />
+              recusandae illo placeat earum in asperiores accusamus enim nam<br />
+              perferendis.
+            </li>
+          </article>
+        </ul>
+      </section>
+
+      <section id="Project">
+        <h2><i>Project Expereince</i></h2>
+        <ol start="8" type="I" reversed="true">
+          <li>
+            <i
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+              odio, itaque commodi minima numquam sequi!</i
+            >
+          </li>
+          <li>
+            <i
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Corrupti, ab!</i
+            >
+          </li>
+          <li>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus?
+          </li>
+        </ol>
+      </section>
+    </main>
+
+    <!-- added a footer tag header -->
+    <footer>
+      <hr />
+      <!-- removed p tags from email ,contact and about me so that thaey are all on
+      same line because p tag elements are block-level elements, so each starts
+      on a new line. -->
+      <a id="Email" href="mailto:Vikrantkumarmfp@gmail.com">📧 Contact </a>
+      <a href="tel:+918084052914" id="mob">📱Phone</a>
+      <a target="_blank" href="About.html"> About me </a>
+      <a href="#Home">Home</a>
+    </footer>
   </body>
 </html>
