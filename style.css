@@ -1,7 +1,8 @@
 * {
-  background-color: aqua;
+  color: #ffffff;
+  background-color: #831111;
 }
 
-p:hover {
-  background-color: red;
+#pfp {
+  float: right;
 }
